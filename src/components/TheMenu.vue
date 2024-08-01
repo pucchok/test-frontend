@@ -2,9 +2,9 @@
 import TheCard from '@/components/TheCard.vue'
 
 const items = [
-  { picture: '/images/pasta.jpg', title: 'ナポリタン', text: '料理説明サンプルメッセージ' },
-  { picture: '/images/curry.jpg', title: 'カレーライス', text: '料理説明サンプルメッセージ' },
-  { picture: '/images/panCake.jpg', title: 'パンケーキ', text: '料理説明サンプルメッセージ' }
+  { picture: 'pasta', title: 'ナポリタン', text: '料理説明サンプルメッセージ' },
+  { picture: 'curry', title: 'カレーライス', text: '料理説明サンプルメッセージ' },
+  { picture: 'panCake', title: 'パンケーキ', text: '料理説明サンプルメッセージ' }
 ]
 </script>
 <template>
