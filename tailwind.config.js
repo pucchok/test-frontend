@@ -7,7 +7,12 @@ export default {
     extend: {}
   },
   variants: {
-    extend: {}
+    extend: {
+      // 背景画像用を追加
+      backgroundImage: {
+        'hero': "url('/images/cafe.jpg')",
+      }
+    }
   },
   plugins: [daisyui]
 }

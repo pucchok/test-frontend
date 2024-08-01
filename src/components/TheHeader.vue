@@ -1,3 +1,10 @@
 <template>
-  <header class="sticky top-0 bg-blue-200 p-4 text-black font-bold">ホームページサンプル</header>
+  <header class="sticky top-0 bg-black-200 p-4 text-white text-2xl font-bold anton-regular">The Cafe</header>
 </template>
+<style scoped>
+.anton-regular {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
